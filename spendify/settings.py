@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'payments.apps.PaymentsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
